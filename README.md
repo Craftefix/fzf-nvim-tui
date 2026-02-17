@@ -1,6 +1,6 @@
 # fzf-nvim-tui
 
-A minimal terminal file manager UI for the [fish shell](https://fishshell.com/), using [`fzf`](https://github.com/junegunn/fzf) and `nvim`. Provides interactive file actions with automatic history management.
+A minimal terminal file manager UI for [`fish`](https://github.com/fish-shell/fish-shell/), using [`fzf`](https://github.com/junegunn/fzf) and [`nvim`](https://github.com/neovim/neovim). Provides interactive file actions with automatic history management.
 
 ---
 
