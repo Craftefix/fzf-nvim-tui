@@ -63,4 +63,4 @@ Run `fnh` to search and open files from history stored in `~/.fn`. The history a
 
 ## License
 
-MIT © 2025 Craftefix
+MIT © 2026 Craftefix
