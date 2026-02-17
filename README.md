@@ -1,13 +1,13 @@
-# fzf-nano-tui
+# fzf-nvim-tui
 
-A minimal terminal file manager UI for the [fish shell](https://fishshell.com/), using [`fzf`](https://github.com/junegunn/fzf) and `nano`. Provides interactive file actions with automatic history management.
+A minimal terminal file manager UI for the [fish shell](https://fishshell.com/), using [`fzf`](https://github.com/junegunn/fzf) and `nvim`. Provides interactive file actions with automatic history management.
 
 ---
 
 ## Features
 
 - File selection via `fzf`
-- Edit (nano), Delete, or Rename files
+- Edit (nvim), Delete, or Rename files
 - Saves edited files to `~/.fn` as backups
 - Search history with `fnh`
 - Auto cleanup to keep history under 1GB or 100 files
@@ -17,12 +17,12 @@ A minimal terminal file manager UI for the [fish shell](https://fishshell.com/),
 ## Installation
 
 ```
-git clone https://github.com/Craftefix/fzf-nano-tui ~/.fzf-nano-tui  
-cd ~/.fzf-nano-tui  
+git clone https://github.com/Craftefix/fzf-nvim-tui ~/.fzf-nvim-tui  
+cd ~/.fzf-nvim-tui  
 fish install.fish
 ```
 
-Requires `fish`, `fzf`, and `nano`.
+Requires `fish`, `fzf`, and `nvim`.
 
 ---
 
@@ -36,7 +36,7 @@ Launch `fn` to pick a file and select an action:
 │ Selected file:               │  
 │ example.txt                  │  
 │                              │  
-│ 1 / e - Edit (nano)          │  
+│ 1 / e - Edit (nvim)          │  
 │ 2 / d - Delete (rm)          │  
 │ 3 / m - Move (rename)        │  
 │                              │  
@@ -56,7 +56,7 @@ Run `fnh` to search and open files from history stored in `~/.fn`. The history a
 ## Configuration
 
 - History stored in `~/.fn`  
-- Default editor is `nano` (changeable)  
+- Default editor is `nvim` (changeable)  
 - Limits: 1GB or 100 files in history (adjustable)
 
 ---
