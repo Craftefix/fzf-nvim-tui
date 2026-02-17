@@ -5,7 +5,7 @@ function fn
         echo "│ Selected file:               │"
         echo "│ $selected_file"
         echo "│                              │"
-        echo "│ 1 / e - Edit (nano)          │"
+        echo "│ 1 / e - Edit (nvim)          │"
         echo "│ 2 / d - Delete (rm)          │"
         echo "│ 3 / m - Move (rename)        │"
         echo "│                              │"
@@ -44,7 +44,7 @@ function fn
         switch $choice
             case 1 e
                 clear
-                nano "$selected_file"
+                nvim "$selected_file"
                 save_to_history_copy "$selected_file"
             case 2 d
                 if rm -i "$selected_file"
